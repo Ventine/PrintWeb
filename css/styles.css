@@ -1,0 +1,258 @@
+:root{
+	--colorVerde: #74c69d;
+	--colorAzulclaro: #62929e;
+	--colorBlanco: #ffffff;
+	--colorRojo: #db3a34;
+	--colorGris: #5c6b73;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: sans-serif, monospace;
+} 
+
+img{
+	height: 190px ;
+	width: 190px ;
+}
+
+a{
+	text-decoration: none;
+}
+
+.header-title{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin: 15px;
+	color: var(--colorAzulclaro);
+}
+
+.header-title h2{
+	margin-left: 20px;
+}
+
+.header-title h3{
+	margin-left: 20px;
+	margin-top: 4px;
+	font-size: 23px !important;
+}
+
+.navbar{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: var(--colorVerde);
+	color: white;
+	padding: 10px 20px;
+	margin-bottom: 30px;
+}
+
+.navbar h2{
+	margin-top: 5px;
+	color: var(--colorBlanco);
+}
+
+.cart{
+	background-color: var(--colorBlanco);
+	color: var(--colorVerde);
+	font-size: 25px;
+	padding: 4px;
+	border-radius: 4px;
+	position: relative;
+	margin-right: 15px !important;
+	cursor: pointer;
+}
+
+.cartAmount{
+	font-size: 16px;
+	background-color: var(--colorRojo);
+	color: var(--colorBlanco);
+	position: absolute;
+	top: -15px;
+	right: -10px;
+	padding: 3px;
+	border-radius: 50%;
+}
+
+.shop{
+	display: grid;
+	grid-template-columns: repeat(4, 223px);
+	gap: 30px;
+	justify-content: center;
+}
+
+.item{
+	border: 2px solid var(--colorVerde);
+	border-radius: 4px;
+}
+
+.item h3{
+	color: var(--colorGris);
+	cursor: pointer;
+}
+
+.details{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	gap: 10px;
+}
+
+.price-quantity{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.price-quantity h2{
+	font-size: 17px;
+	margin-top: 10px;
+	font-weight: 200;
+
+}
+
+.buttons{
+	display: flex;
+	flex-direction: row;
+	font-size: 23px;
+}
+ 
+.btnAdd{
+	background-color: var(--colorVerde);
+	color: var(--colorBlanco);
+	cursor: pointer;
+	border-radius: 50%;
+	padding-top: 2px;
+	margin: 5px;
+}
+.quantity{
+	margin: 5px !important;
+}
+
+.btnRemove{
+	background-color: var(--colorRojo);
+	color: var(--colorBlanco);
+	cursor: pointer;
+	border-radius: 50%;
+	padding-top: 2px;
+	margin: 5px;	
+
+}
+
+.text-center{
+	text-align: center;
+	margin-bottom: 12px;
+	font-size: 20px;
+	color: var(--colorGris);
+	font-style: italic;
+}
+
+.HomeBtn{
+	width: 120px;
+	height: 60px;
+	background-color: var(--colorAzulclaro);
+	color: var(--colorBlanco);
+	border: none;
+	padding: 6px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 25px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.HomeBtn:hover{
+	background-color: var(--colorBlanco);
+	color: var(--colorAzulclaro);
+	border: 2px solid var(--colorAzulclaro);
+}
+
+.shopping-cart{
+	display: grid;
+	grid-template-columns: repeat(1, 330px);
+	justify-content: center;
+	gap: 15px;	
+}
+
+.cart-img{
+	width: 120px;
+	height: 120px
+}
+
+.cart-item{
+	border: 2px solid var(--colorAzulclaro);
+	border-radius: 5px;
+	display: flex;
+}
+
+.title-price-x{
+	width: 185px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.div-btn{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.removeAll{
+	width: 120px;
+	height: 60px;
+	background-color: var(--colorAzulclaro);
+	color: var(--colorBlanco);
+	border: none;
+	padding: 6px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin: 5px 15px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.removeAll:hover{
+	background-color: var(--colorBlanco);
+	color: var(--colorAzulclaro);
+	border: 2px solid var(--colorAzulclaro);
+}
+
+.print{
+	width: 120px;
+	height: 60px;
+	background-color: var(--colorVerde);
+	color: var(--colorBlanco);
+	border: none;
+	padding: 6px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin: 5px 15px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.print:hover{
+	background-color: var(--colorBlanco);
+	color: var(--colorVerde);
+	border: 2px solid var(--colorVerde);
+}
+
+
+@media (max-width: 1000px){
+	.shop{
+		grid-template-columns: repeat(2, 220px);
+	}
+}
+
+@media (max-width: 500px){
+	.shop{
+		grid-template-columns: repeat(1, 220px);
+	}
+}
