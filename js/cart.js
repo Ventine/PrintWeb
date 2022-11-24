@@ -24,6 +24,7 @@ let generateBtn = () => {
         return divbtn.innerHTML = `
       <button onclick="" class="print">Imprimir</button>                
       <button onclick="clearCart()" class="removeAll">Limpiar lista</button>    
+      <a href="index.html"><button class="return">Regresar</button> </a>   
         `
   }else return
 }

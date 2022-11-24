@@ -203,6 +203,7 @@ a{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin-bottom: 20px;
 }
 .removeAll{
 	width: 120px;
@@ -244,6 +245,25 @@ a{
 	border: 2px solid var(--colorVerde);
 }
 
+.return{
+	width: 120px;
+	height: 60px;
+	background-color: var(--colorRojo);
+	color: var(--colorBlanco);
+	border: none;
+	padding: 6px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin: 5px 15px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.return:hover{
+	background-color: var(--colorBlanco);
+	color: var(--colorRojo);
+	border: 2px solid var(--colorRojo);
+}
 
 @media (max-width: 1000px){
 	.shop{
