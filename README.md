@@ -11,4 +11,4 @@ Lista de impresión
 ![image](https://user-images.githubusercontent.com/19364556/203823872-f4e3dd39-f22f-4a2d-b657-11f11c97aa49.png)
 
 Visitar pag web:
-https://splendid-pasca-410660.netlify.app/index.html
+https://splendid-pasca-410660.netlify.app/index.html 
