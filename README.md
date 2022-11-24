@@ -4,7 +4,7 @@ Inicio
 
 
 ![image](https://user-images.githubusercontent.com/19364556/203824369-4ebdb262-e662-44ef-bc9b-7b278ce73da1.png)
-Responsive
+
 
 Lista de impresión
 ![image](https://user-images.githubusercontent.com/19364556/203823821-729f092f-326a-42c1-aca8-fddb89935881.png)
