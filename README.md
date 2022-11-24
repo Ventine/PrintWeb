@@ -1,9 +1,8 @@
 # PrintWeb
 Inicio
 ![image](https://user-images.githubusercontent.com/19364556/203823589-de3f0ec4-dd84-4734-81a9-fec0db72e534.png)
-
 Responsive
-![image](https://user-images.githubusercontent.com/19364556/203823746-17f09196-26ac-4ec4-ab28-d55975014d31.png)
+![image](https://user-images.githubusercontent.com/19364556/203824174-74835648-d68a-469f-9b9e-821337015117.png)
 
 Lista de impresión
 ![image](https://user-images.githubusercontent.com/19364556/203823821-729f092f-326a-42c1-aca8-fddb89935881.png)
